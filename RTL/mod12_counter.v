@@ -6,6 +6,8 @@ module mod12 (
 	input [3:0] d_in, 
 	output reg [3:0] d_out);
 
+
+	
 always @ (posedge clock)
 	begin
 		if(rst)
